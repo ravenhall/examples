@@ -86,7 +86,7 @@ Reads in a process list (ps -e l) and builds a process tree hash in %table.
 
 None
 
-=item Returns
+=item Return
 
 None
 
@@ -149,7 +149,7 @@ the child, and stores the child in the parent's CHILD array.
 
 Required: process hashref, child hashref
 
-=item Returns
+=item Return
 
 True if parent was found, false otherwise.
 
